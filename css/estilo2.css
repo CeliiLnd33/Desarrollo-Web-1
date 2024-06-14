@@ -1,0 +1,73 @@
+ .h1 {
+        font-family: "Tiny5", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+   
+@media(min-width:1000px){
+    .body{
+        background-color: rgb(69, 173, 177) rgb(86, 72, 248 solid);
+    }
+    
+    #ImgCard{
+        height: 300px; height: 300px;
+    }
+    .Gamas{
+        height: 450px;
+        width: 350px;
+        background-color: white;
+        text-align: center;
+        border: 3px black solid;
+    }
+    .Gamas:hover{
+        border: 3px rgb(130, 253, 188) solid;
+    }
+    .CONTENEDORT{
+        display: flex;
+        justify-content: space-around;
+    }
+    .LETTERS{
+        display: flex;
+        justify-content: space-around;
+    }
+    .iframe{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media(max-width:999px){
+    body{
+        background-color: rgb(128, 159, 236);
+    }
+    
+    #ImgCard{
+        height: 300px; height: 300px;
+    }
+    .Gamas{
+        height: 450px;
+        width: 350px;
+        background-color: white;
+        text-align: center;
+        border: 3px black solid;
+    }
+    .Gamas:hover{
+        border: 3px rgb(130, 253, 188) solid;
+    }
+    .CONTENEDORT{
+        display: grid;
+        justify-content: center;
+    }
+    .LETTERS{
+        display: flex;
+        justify-content: space-around;
+    }
+    .iframe{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media(max-width:600px){
+    body{
+        background-color: rgb(196, 207, 255)
+    }
+}

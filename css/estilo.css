@@ -1,0 +1,64 @@
+body{
+    background-color: #7cc9cc;
+}
+h1{
+text-align: center;
+color: antiquewhite;
+
+}
+
+.ImgCard{
+    width: 300px;
+    height: 300px;
+}
+header{
+    background-color: rgb(63, 160, 221);
+}
+#Logo{
+    width: 350px;
+    height: 350px;
+    border-radius: 100px;
+
+}
+.CARD{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    text-align: center;
+    border: 3px black solid;
+}
+.CARD:hover{
+    border: 3px rgb(230, 143, 143) solid; 
+}
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.ContenedorP{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+footer{
+    background-color: rgb(174, 226, 239);
+}
+h2{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger; text-align: center;
+}
+.InfoFooter{
+    text-align: center;
+    border:2px mistyrose solid;
+    width: 25%;
+}
+.ContenedorFooter{
+    display: flex;
+    justify-content: space-around;
+}
